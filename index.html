@@ -68,6 +68,22 @@ button{
 button:hover{
     transform:scale(1.1);
     box-shadow:0 0 10px rgba(0,0,0,0.3);
+    .youtube-btn{
+    margin-top:20px;
+    text-decoration:none;
+    background:red;
+    color:white;
+    padding:15px 25px;
+    border-radius:10px;
+    font-size:20px;
+    transition:0.3s;
+}
+
+.youtube-btn:hover{
+    background:darkred;
+    transform:scale(1.1);
+    box-shadow:0 0 20px red;
+}
 }
 </style>
 </head>
@@ -117,7 +133,11 @@ Clear
 </div>
 
 </div>
-
+<a class="youtube-btn"
+href="https://youtube.com/@ricktmc7?si=48evAtnkpVph8NEx"
+target="_blank">
+🎥 Rafid's Channel
+</a>
 <script>
 let display=document.getElementById("display");
 
